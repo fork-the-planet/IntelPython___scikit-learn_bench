@@ -22,8 +22,8 @@
             },
             {
                 "data": {
-                    "dataset" : "cifar",
-                    "split_kwargs": { "ignore" : true },
+                    "dataset": "cifar",
+                    "split_kwargs": { "ignore": true },
                     "preprocessing_kwargs": { "normalize": "mean" }
                 }
             }
@@ -39,12 +39,7 @@
             ]
         },
         "cuml tsne": {
-            "SETS": [
-                "cuml implementation",
-                "common tsne parameters",
-                "cuml parameters",
-                "high-load tsne datasets"
-            ]
+            "SETS": ["cuml implementation", "common tsne parameters", "cuml parameters", "high-load tsne datasets"]
         }
     }
 }
